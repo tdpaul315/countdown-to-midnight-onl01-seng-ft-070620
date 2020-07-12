@@ -5,3 +5,4 @@ number = 10
  break if number <= 0
 end
 
+"HAPPY NEW YEAR!"
