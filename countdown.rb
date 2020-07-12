@@ -9,10 +9,10 @@ def countdown(number)
 end
 
 def countdown_with_sleep(num_secs)
+  while num_secs > 0 
+  puts num_secs
+  num_secs -= 1 
   sleep 1
 end
   
-  1.upto(5) do |n|
-  puts n
-  sleep 1 # second
-end
+ 
