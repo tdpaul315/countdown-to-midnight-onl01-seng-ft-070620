@@ -1,14 +1,8 @@
-counter = 10
-
-def countdown (counter)
+number = 10
+ while number > 0
+   puts "#{number} SECOND(S)!"
+   number -= 1
+ break if number <= 0
+ puts "HAPPY NEW YEAR!"  
 end
-
-countdown 
-
-while counter < 10 
-puts "#{counter} SECOND(S) !"
-counter -= 1 
-end 
-
-
 
