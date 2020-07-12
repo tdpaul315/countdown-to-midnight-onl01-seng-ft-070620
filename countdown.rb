@@ -1,4 +1,4 @@
-counter = 0
+counter = 10
 
 def countdown (counter)
 end
